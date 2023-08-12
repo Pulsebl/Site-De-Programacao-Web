@@ -1,0 +1,43 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-image: linear-gradient(-135deg, #0FC2C0,#015958,#1ab915);
+}
+
+.text-white{
+  text-decoration: none;
+}
+footer{
+  margin: 10px;
+  padding: 10px;
+}
+
+#scrollBtn {
+  height: 14vh;
+  width: 7vw;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(48, 204, 27);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+#scrollBtn:hover {
+  opacity: 0.8;
+  background-color: #d8e61a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.btn{
+  background-color: rgb(250, 43, 6);
+}
